@@ -16,12 +16,12 @@ Declare object and change any element
 
 ## Checklist-2
 
-# FeetToInch return only digit
+1. FeetToInch return only digit
 
-# centimeterToMeter return only digit
+2. centimeterToMeter return only digit
 
-# pageRequiremetns book1 has 100 pages book1 has 200 pages book1 has 300 pages
+3. pageRequiremetns book1 has 100 pages book1 has 200 pages book1 has 300 pages
 
-# bestFriend --- from friends array return string means one friend name who has big name
+4. bestFriend --- from friends array return string means one friend name who has big name
 
-# onlyPositive function if Array has negative digis than stop loop immidate
+5. onlyPositive function if Array has negative digis than stop loop immidate
