@@ -16,8 +16,12 @@ Declare object and change any element
 
 ## Checklist-2
 
-FeetToInch return only digit
-centimeterToMeter return only digit
-pageRequiremetns book1 has 100 pages book1 has 200 pages book1 has 300 pages
-bestFriend --- from friends array return string means one friend name who has big name
-onlyPositive function if Array has negative digis than stop loop immidate
+# FeetToInch return only digit
+
+# centimeterToMeter return only digit
+
+# pageRequiremetns book1 has 100 pages book1 has 200 pages book1 has 300 pages
+
+# bestFriend --- from friends array return string means one friend name who has big name
+
+# onlyPositive function if Array has negative digis than stop loop immidate
