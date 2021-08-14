@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event common</title>
+</head>
+
+<body>
+  <p id="settext"></p>
+  <button id="update-text">Update</button>
+  <input id="name-field" type="text">
+  <button id="direct-event">direct event</button>
+  <button id="make-function" onclick="hello()">function click</button>
+  <script>
+    document.getElementById('update-text').addEventListener('click', () => {
+      const nameField = document.getElementById('name-field')
+      console.log(nameField.value)
+      const para = document.getElementById('settext')
+      para.innerHTML = nameField.value
+      nameField.value = ''
+    })
+    document.getElementById('direct-event').addEventListener('click', () => {
+      alert('this is alert')
+    })
+    //  document.getElementById('').
+
+    function hello() {
+      alert('this is function call')
+    }
+  </script>
+</body>
+
+</html>
