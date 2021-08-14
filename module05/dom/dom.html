@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <h1>wellcome to my blog</h1>
+  </header>
+  <main>
+    <section>
+      <article class="blog">
+        <h1>my Awesome Blog-1</h1>
+        <ul id="addli">
+          <li>first list</li>
+          <li>Second list</li>
+          <li>third list</li>
+          <li>thsi isthurd</li>
+        </ul>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto consequatur, et omnis dolor distinctio
+          fugiat aspernatur quas ut debitis ipsa dolores minima! Perspiciatis delectus quia, optio dicta vitae et unde.
+        </p>
+      </article>
+      <article class="blog">
+        <h1>my Awesome Blog-2</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto consequatur, et omnis dolor distinctio
+          fugiat aspernatur quas ut debitis ipsa dolores minima! Perspiciatis delectus quia, optio dicta vitae et unde.
+        </p>
+      </article>
+      <article id="last">
+        <h1>my Awesome Blog-1</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto consequatur, et omnis dolor distinctio
+          fugiat aspernatur quas ut debitis ipsa dolores minima! Perspiciatis delectus quia, optio dicta vitae et unde.
+        </p>
+      </article>
+    </section>
+  </main>
+  <script>
+    const test = document.getElementsByClassName('blog')
+    //test.style.color = 'red'
+
+    /* const tagnames = document.getElementById('last')
+    console.log(tagnames) */
+    /*  console.log(tagname)
+     console.log(document.body) */
+
+    // create add element
+    const li = document.createElement('li');
+    //document.body.appendChild(a);
+    li.innerText = 'blog6';
+    // where to add
+    const ul = document.getElementById('addli')
+    ul.appendChild(li).st
+  </script>
+</body>
+
+</html>

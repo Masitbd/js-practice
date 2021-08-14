@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events</title>
+</head>
+
+<body>
+  <h1 onclick="console.log('Hello')">event handler</h1>
+  <button onclick="makeRed()">make me red</button>
+  <button id="blue-button">make me blue-button</button>
+  <button id="makeNil">make me black</button>
+  <button id="golden-Rod">make me golden</button>
+  <button id="make-grey">make me gray</button>
+  <script src="./events.js"></script>
+  <script>
+    const nilButton = document.getElementById('makeNil')
+    const blueButton = document.getElementById('blue-button')
+
+    const golden = document.getElementById('golden-Rod');
+    golden.addEventListener('click', makeGolden)
+    Document.addEventListener('click', makeGolden).addEventListener('click', () => {})
+
+
+
+    const makegrey = document.getElementById('make-grey')
+    makegrey.addEventListener('click', () => {
+      document.body.style.backgroundColor = 'grey'
+    })
+
+    function makeGolden() {
+      document.body.style.backgroundColor = 'goldenRod'
+    }
+    nilButton.onclick = function () {
+      document.body.style.backgroundColor = 'black'
+    }
+    /* just set the function */
+    blueButton.onclick = (makeBlue)
+
+    function makeBlue() {
+      document.body.style.backgroundColor = 'blue';
+    }
+  </script>
+</body>
+
+</html>
