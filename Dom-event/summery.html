@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Summery</title>
+</head>
+
+<body>
+  <input id="email" type="text" placeholder="your email address">
+  <button onclick="green()">click me</button>
+  <script>
+    function green() {
+      document.body.style.backgroundColor = 'green'
+    }
+    document.getElementById('email').addEventListener('click', function (event) {
+      console.log(event.target.value)
+    })
+  </script>
+</body>
+
+</html>
