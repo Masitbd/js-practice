@@ -1,5 +1,9 @@
 # js-practice
 
+## How to run javascript file form vsCode
+
+node strict.js
+
 ## Checklist-1
 
 1. Variable ------ var price = 100 var name = “Murad” var yes = true
